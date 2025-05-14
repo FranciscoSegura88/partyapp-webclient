@@ -5,6 +5,7 @@ import { UserRegisterComponent } from './pages/user-register/user-register.compo
 import { GroupRegisterComponent } from './pages/group-register/group-register.component';
 import { HomeUsuarioComponent } from './pages/home-usuario/home-usuario.component';
 import { LoginComponent } from './pages/login/login.component';
+import { ChatComponent } from './pages/chat/chat.component';
 
 export const routes: Routes = [
   {path: '', component: InicioComponent},
@@ -13,4 +14,5 @@ export const routes: Routes = [
   {path: 'usertype/user', component: UserRegisterComponent},
   {path: 'usertype/group', component: GroupRegisterComponent},
   {path: 'home', component: HomeUsuarioComponent},
+  {path: 'chat', component: ChatComponent},
 ];
